@@ -1,0 +1,96 @@
+.menu-bg{
+
+	/*height: 1500px;*/
+	background-color: #292929;
+}
+/*.menu-nav{
+	position: relative;
+	margin-top: -80px;
+}*/
+.footer{
+	/*height:250px;*/
+	background-color:#030114;
+}
+hr{ 
+    border:none;
+    border-bottom:1px solid #cbcbcb;
+    width:1250px;   
+}
+
+.menu-item{
+	/*height:1230px;*/
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-image:url("../images/view.png");
+	background-position: center; 
+	background-size: cover;
+  	background-repeat: no-repeat; 
+  	background-color: #a19825;
+  	background-blend-mode:soft-light;
+  
+	
+}
+/*.item-block{
+position: absolute;
+padding-top: 150px;
+}*/
+@media screen and (min-width: 1000px) {
+	.app-block{
+		padding-top: 100px;
+	}
+
+	.appetizer{
+		padding-bottom: 20px;
+	}
+
+	.desert-block{
+		padding-top: 200px;
+	}
+	.desert{
+		padding-bottom: 20px;
+	}
+}
+
+
+.appetizer{
+	/*height:820px;*/
+	/*width:350px;*/
+	background-color: #fff;
+
+}
+.combo{
+	/*height:1150px;*/
+	width:350px;
+	background-color: #fff;
+	position: relative;
+	/*margin-top: -120px;*/
+}
+.desert{
+	/*height:670px;*/
+	width:350px;
+	background-color: #fff;
+	position: relative;
+	/*margin-top: -40px;*/
+}
+
+@media screen and (max-width: 500px){
+	.footer{
+		height: 438px;
+	}
+
+	.foot-row{
+
+	}
+
+	.cat-foot {
+		position: relative;
+		left: 200px;
+		top: -80px;
+	}
+
+	.cat-links{
+		position: relative;
+		top: 68px;
+	}
+
+}

@@ -1,0 +1,225 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #15202B;
+    overflow-x: hidden;
+ 
+}
+button{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.top-bar{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    align-items: center;
+    text-align: center;
+    padding: 0px 20px 0px 25px;
+}
+.logo{
+   max-width: 100px;
+   height: auto;
+}
+.left-menu > i{
+    display: none;
+}
+.nav-links{
+    text-align: left;
+    list-style: none;
+    font-weight: 500;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    background-color: red;
+    color: white;
+}
+.right-part{
+    color: white;
+    background-color: #202E3A;
+    border-radius: 10px;
+    width: 100%;
+    padding: 20px 10px 20px 10px;
+    
+
+}
+.underline{
+    background-color: lightgrey;
+}
+
+.right-part-btn{
+    color: #15202B;
+    background-color: lightgrey;
+    width: 90%;
+    margin: 10px 0px 10px 0px;
+    border-radius: 0px;
+    text-align: left;
+    font-size: 12px;
+
+}
+.right-part-btn:hover{
+    background-color: red;
+    color: white;
+}
+.latest-post{
+    padding-top: 30px;
+}
+.post-date{
+    font-size: 12px;
+}
+.headline-post{
+    font-size: 14px;
+
+}
+.most-likes{
+    padding-top: 30px;
+}
+
+.top-videos{
+    color: white;
+    
+}
+.headline{
+    font-weight: bold;
+    color: white;
+    padding-top: 10px;
+}
+
+.video-img{
+    max-width: 240px;
+}
+
+.cl-item > i{
+    color: white;
+    font-size: 24px;
+    position: relative;
+    bottom: 120px;
+    left: 80%;
+}
+
+.video-text{
+    background-color: black;
+    height: 80px;
+    max-width: 240px;
+    margin-top: -28px;
+    padding: 10px;
+
+}
+
+.video-text > h6{
+    font-size: 12px;
+}
+.video-text > p{
+    font-size: 11px;
+}
+
+.recent-video-lg{
+   width: 100%;
+}
+
+.recent-video-large > i{
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: 70px;
+    left: 83%;
+}
+.recent-video-text{
+    padding: 10px 0px 0px 0px;
+}
+.recent-video-text > h6{
+    font-size: 16px;
+}
+.recent-video-text > p{
+    font-size: 13px;
+}
+
+.recent-video-small-text > h6{
+    font-size: 12px;
+}
+.recent-video-small-text > p{
+    font-size: 11px;
+}
+
+.recent-vid-small > i{
+    color:white;
+    font-size: 20px;
+   display: flex;
+   justify-content: center;
+   position: relative;
+   top: 40%;
+
+}
+
+.staff-line{
+    color: white;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.blog-text{
+    padding-top: 30px;
+    color: white;
+}
+.blog-text > h6{
+    color: white;
+    font-size: 35px;
+}
+.blog-text > span{
+    padding-top: 50px;
+    font-size: 20px;
+}
+.continue{
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+.submit-video{
+    padding: 50px 10px 30px 10px;
+    margin-bottom: 50px;
+    color: white;
+    text-align: center;
+    background-color: #202E3A;
+
+}
+
+.upload-video-btn{
+    font-size: 12px;
+    padding: 10px;
+}
+
+.footer-section{
+    background: #484B5D;
+    padding: 30px 0px 30px 0px;
+    color: white;
+    
+}
+.footer-section p{
+  font-size: 14px;
+    
+}
+
+.footer-img{
+    max-width: 40%;
+    height: auto;
+}
+.follow:hover i{
+    color: red;
+}
+.follow:hover{
+    color: white;
+}

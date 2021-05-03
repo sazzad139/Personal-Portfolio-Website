@@ -1,0 +1,30 @@
+.border{
+	border:none;
+	border-bottom: 1px solid;
+	opacity: 0.5;
+	z-index: 999;
+}
+
+.contact2{
+	margin-top: 170px;
+	padding-top: 30px;
+	background-color: #fff;
+}
+.foot-logo{
+	height: 100px;
+}
+
+@media screen and (max-width: 500px){
+
+
+.foot-logo{
+	height: 50px;
+}
+
+.contact2{
+	margin-top: 170px;
+	padding-top: 30px;
+	background-color: #fff;
+	text-align: center;
+}
+}

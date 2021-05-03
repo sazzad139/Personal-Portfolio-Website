@@ -1,0 +1,32 @@
+.book-bg{
+	background-color: #292929;
+	padding-bottom: 30px;
+}
+/*.menu-nav{
+	position: relative;
+	margin-top: -80px;
+}*/
+.footer{
+	height:250px;
+	background-color:#030114;
+}
+hr{ 
+    border:none;
+    border-bottom:1px solid #cbcbcb;
+    width:1250px;   
+}
+
+.book{
+	/*height:600px;*/
+	background-image:url("../images/view.png");
+	background-position: center; 
+	background-size: cover;
+  	background-repeat: no-repeat; 
+  	background-color: #a19825;
+  	background-blend-mode:soft-light;
+  	/*margin-top: -50px;*/
+  	padding-bottom: 20px;
+	
+}
+
+

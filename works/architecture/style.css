@@ -1,0 +1,217 @@
+
+.body{
+	background-color: #1c1c1c;
+
+}
+.common{
+	margin-top: 100px;
+}
+.socials{
+	height: 700px;
+	width: 70px;
+}
+
+.socials-txt{
+	position: relative;
+	padding-top: 200px;
+}
+
+.slider{
+	position: relative;
+	margin-top: -700px;
+	max-width: 1270px;
+}
+.sl-img{
+	height: 600px;
+}
+.about-us{
+	padding-top: 150px;
+}
+.about{
+	position: relative;
+	margin-top: -350px;
+
+}
+
+.projects{
+	padding-top: 150px;
+}
+.team-txt{
+	position: relative;
+	margin-top: -400px;
+	padding-left: 50px;
+}
+.p-img{
+	height: 600px;
+	width: 100%;
+}
+
+.works{
+	padding-top: 350px;
+	
+}
+
+.bg-img{
+	background-image: url("images/img1.jpg");opacity: 0.1;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 1700px;
+	position: relative;
+	margin-top: -1640px;
+	z-index: -999;
+}
+.w-txt1{
+	position: relative;
+	padding-top: 100px;
+	text-align: left;
+}
+.img-w{
+	max-height: 500px;
+}
+
+.testimonials{
+	background:linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url("images/img12.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	
+
+}
+
+
+.contact{
+	padding-top: 50px;
+	background-color: #fff;
+	
+}
+.foot-logo{
+	height: 100px;
+}
+
+/*testimonials hover effect*/
+@keyframes example {
+  0%   {opacity: 0 }
+  25%  {opacity: 0.25 }
+  50%  {opacity: 0.50  }
+  75%  {opacity: 0.75  }
+  100% {opacity: 1 }
+}
+.test-text:hover{
+ position: relative;
+  animation-name: example;
+  animation-duration: 1s;
+
+}
+
+
+/*Featured Works*/
+@keyframes works {
+  0%   {opacity: 0 }
+  25%  {opacity: 0.25 }
+  50%  {opacity: 0.50  }
+  75%  {opacity: 0.75  }
+  100% {opacity: 1 }
+}
+.p1:hover{
+  position: relative;
+  animation-name: works;
+  animation-duration: 2s;
+}
+.p2:hover{
+  position: relative;
+  animation-name: works;
+  animation-duration: 2s;
+}
+.p3:hover{
+  position: relative;
+  animation-name: works;
+  animation-duration: 2s;
+}
+
+
+/*Entrust your project*/
+.team-txt:hover{
+  position: relative;
+  animation-name: works;
+  animation-duration: 2s;
+}
+
+
+
+/*Responsive works*/
+@media screen and (max-width: 500px){
+
+	.sl-img{
+	max-height: 300px;
+}
+
+.socials-txt {
+	display: inline-flex;
+	padding-top: 310px;
+}
+.socials-txt i{
+	padding: 0px 5px 0px 5px;
+}
+
+.about-us{
+	padding-top: 30px;
+}
+
+.about{
+	position: relative;
+	margin-top: -500px;
+
+
+}
+.about-img{
+	max-height: 370px;
+
+}
+
+.about-text{
+	padding-top: 30px;
+}
+
+.projects{
+	padding-top: 50px;
+}
+
+.team-txt{
+	position: relative;
+	padding-left: 0px;
+}
+
+.works{
+	padding-top: 240px;
+	
+}
+
+.w-txt1{
+	position: relative;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.img-w{
+	max-height: 300px;
+	padding-top: 20px;
+}
+
+.contact{
+	padding-top: 20px;
+	background-color: #fff;
+	text-align: center;
+	
+}
+
+.foot-logo{
+	height: 50px;
+}
+
+.news{
+	padding-top: 40px;
+}
+}

@@ -1,0 +1,43 @@
+.p2-img{
+	background-image:url("images/img6.jpg"); 
+	background-position: center; 
+  	background-repeat: no-repeat; 
+  	background-size: cover;
+	height: 500px;
+
+}
+
+.p1-txt{
+	position: relative;
+	padding-top: 450px;
+}
+
+.contact2{
+	margin-top: 500px;
+	padding-top: 30px;
+	background-color: #fff;
+	
+}
+
+.foot-logo{
+	height: 100px;
+}
+
+
+@media screen and (max-width: 500px){
+	.contact2{
+	margin-top: 500px;
+	padding-top: 30px;
+	background-color: #fff;
+	text-align: center;
+}
+
+	.foot-logo{
+	height: 50px;
+}
+
+.news{
+	padding-top: 40px;
+}
+
+}

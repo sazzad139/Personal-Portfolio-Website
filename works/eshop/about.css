@@ -1,0 +1,87 @@
+.top-bar{
+	font-family: monteserrat;
+	text-align: center;
+}
+
+.navbar-nav{
+	font-weight: bold;
+	font-family: roboto;
+	font-size: 16px;
+	text-transform: uppercase;
+	}
+
+.cat-1{
+	height: 50px;
+	background-color: #ff5500;
+	border-radius: 5px;
+	font-family: lato;
+}
+
+.cat-3{
+	height: 50px;
+	background-color: #c90000;
+	border-radius: 5px;
+	font-family: lato;
+}
+.search input{
+border: 0;
+border-radius: 5px;
+width: 80%;
+height: 50px;
+background-color:#ebebeb;
+padding-left: 20px;
+opacity: 0.7;
+}
+
+.search button{
+height: 50px;	
+border: 0;
+border-radius: 5px;
+background: #ff5500;
+color: #fff;
+min-width: 118px;
+}
+
+.cat-list{
+	padding-top: 20px;
+	text-align: left;
+	font-family: lato;
+	font-weight: 500;
+
+}
+.cat-ul{
+	list-style: none;
+	border: 2px solid;
+	border-color: #000;
+	border-radius: 3px;
+	padding: 20px 0 20px 30px;
+}
+
+.about-us{
+	background-image: url('images/about.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: none;
+	height: 700px;
+	margin: 50px 0 20px 0;
+}
+
+.about-text{
+	font-family: lato;
+
+}
+
+.newsletter{
+	color:white;
+	background-color:#ff5500;
+	height: 120px;
+	margin-bottom: 50px;
+	font-family: lato;
+	border-radius: 3px;
+
+}
+
+.footer{
+	font-family: lato;
+
+}

@@ -1,0 +1,56 @@
+.recent-video-large > i {
+    color: white;
+    font-size: 70px;
+    position: relative;
+    top: 250px;
+    left: 50%;
+}
+
+.top-videos{
+    color: white;
+    margin-top: -58px;
+}
+
+.recent-video-text > p {
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.views-follows{
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.headline {
+    font-weight: bold;
+    color: white;
+    padding-top: 100px;
+}
+
+.related-videos{
+    color: white;
+    margin-bottom: 50px;
+}
+
+.user-pass{
+    padding: 10px 40px 30px 10px;
+}
+
+.social-connect{
+    padding-top: 40px;
+}
+
+
+@media screen and (max-width:1080px){
+    .recent-video-large > i {
+        color: white;
+        font-size: 40px;
+        position: relative;
+        top: 160px;
+        left: 50%;
+    }
+
+}
