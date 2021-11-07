@@ -14,6 +14,7 @@
   <link href="css/darkbox.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   
 
   
@@ -38,14 +39,13 @@
          <li class="nav-item">
           <a class="nav-link font-weight-bold text-white text-uppercase" href="#aboutMe">About ME</a>
         </li>
+         <li class="nav-item">
+          <a class="nav-link font-weight-bold text-white text-uppercase" href="#myResume">Portfolio</a>
+        </li>
         <li class="nav-item">
           <a class="nav-link font-weight-bold text-white text-uppercase" href="#contactMe">Contact</a>
         </li>
-         <li class="nav-item">
-          <a class="nav-link" href="#">
-            <button type="button" class="btn btn-outline-light nav-btn animate__animated animate__pulse animate__infinite" data-toggle="modal" data-target="#myModal"><span class="font-weight-bold text-white">HIRE ME</span></button>
-          </a>
-        </li>
+        
         </ul>
     </div>
   </div>
@@ -56,7 +56,7 @@
 
 <!-- Header Image Section -->
 <div class="container" style="overflow:hidden;" >
- <div class="header pt-5" >
+ <div class="header pt-5" data-aos="fade-up" data-aos-duration="3000" >
 		<div class="row text-center">
 			<div class="col-lg-6 col-md-6 col-sm-12 head-text">
 				<h3 class="font-weight-light animate__animated animate__backInDown animate__delay-1s"style="letter-spacing: 1px;">Hello, I'm</h3>
@@ -74,44 +74,10 @@
 </div>
 
 				<div class="pt-1">
-				<button type="button" class="btn btn-dark hd-btn" data-toggle="modal" data-target="#myModal">HIRE ME</button>&nbsp;&nbsp;
         
         <!-- Hire Me Modal -->
-        <div class="modal fade" id="myModal" data-backdrop="static" >
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header text-white">
-          <div class="text-left">
-          <h2 style="letter-spacing: 2px;">LET'S TALK!</h2>
-          <p style="letter-spacing: 2px;">SEND ME A REQUEST</p>
-        </div>  
-          <button class="close text-white" data-dismiss="modal">&times;</button>
-        </div>
-        <div class="modal-body">
-          <form class="text-white">
-            
-              <div class="form-group">
-                  <label for="exampleInputEmail1">Your Email</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="">
-                </div>
-                <div class="form-group">
-                 <textarea class="form-control text-center">Text Me</textarea>
-                </div>
-                <div>
-                  <button type="submit" class="btn btn-info">SEND</button>
-                </div>
-                <div class="pt-2">
-                <a href="https://www.upwork.com/o/profiles/users/~010260060c95117087/" target="_blank" class="text-white">Hire on Upwork |</a>
-                <a href="https://www.freelancer.com/u/sazzad29" target="_blank" class="text-white">Freelancer</a>
-                <a href="https://www.fiverr.com/sazzad29" target="_blank" class="text-white">| Fiverr</a>
-                </div>
-                
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-  <a href="#myResume"><button type="button" class="btn btn-info hd-btn">SEE MY RESUME</button></a>
+       
+  <a href="#myResume"><button type="button" class="btn btn-info hd-btn">SEE MY PORTFOLIO</button></a>
 </div>
 </div>
 			<div class="col-lg-6 col-md-6 col-sm-12">
@@ -125,9 +91,9 @@
 
 <!-- More works Section -->
 
- <div class="more-work" style="overflow:hidden;">
+ <div class="more-work " data-aos="fade-right" data-aos-duration="3000" style="overflow:hidden;">
   <div class="container" style="overflow:hidden;" id="myWork">
-		<h3 class="text-center font-weight-bold" style="letter-spacing: 2px;">MY WORKS</h3>
+		<h3 class="text-center font-weight-bold" style="letter-spacing: 2px;">MY RECENT WORKS</h3>
     <!-- Card Section -->
     <!-- First Row -->
     <div class="row pt-5">
@@ -188,26 +154,14 @@
   </div>
 </div>
     </div>
-
-    <!--------------------third row starts------------------->
-    <div class="row pt-5">
-    	<div class="card-deck">
-  <div class="card">
-    <img src="images/works/6.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title font-weight-bold">Larry Reid</h5>
-      <button class="btn btn-success card-btn" onclick=" window.open('works/larry/index.html')">Live Preview</button>
-    </div>
-  </div> 
  
-</div>
     </div>
   <!-- Card Section Ends -->
 </div>
   </div>
 
 <!-- About ME -->
-<div id="aboutMe" style="overflow:hidden;">
+<div id="aboutMe" data-aos="fade-up" data-aos-duration="3000" style="overflow:hidden;">
 	<div class="about ">
     <div class="container">
 
@@ -217,11 +171,15 @@
         </div>
       <div class="col-lg-7 col-md-7 text-left who-text">
         <p class="display-4 text-left font-weight-bold text-muted" style="letter-spacing: 2px;">WHO AM I</p>
-        <p class="text-left lead">Hi</p><h3 class="text-left" style="letter-spacing: 2px;">I'm Sazzad Ahmed</h3><p class="text-left lead">An expert Web Designer & Developer with highly skilled on HTML,CSS,
-           Bootstrap,Javascript,JQuery,PHP. Beside I have good experience on Wordpress Website Development,Theme Customization, Ecommerce Website Building. I am very passionate about my job & deliver the best result to my clients. I'm ready to provide you the best service with Hard working,dedication,understanding & very helpful mind</p>
-           <button type="button" class="btn btn-primary hd-btn animate__animated animate__pulse animate__infinite" data-toggle="modal" data-target="#myModal">HIRE ME</button>
+        <p class="text-left lead">Hi</p>
+        <h3 class="text-left" style="letter-spacing: 2px;">I'm Sazzad Ahmed</h3>
+        <p class="text-left lead">An expert Web Designer & Developer for more than 2 years. My expertise on HTML,CSS,
+          Bootstrap,Javascript,JQuery,PHP and WordPress. I have successfully completed around 250+ projects till now.<br>Currently I'm doing my
+        B.Sc Engineering Degree on Electronics and Communication Engineering at Hajee Mohammad Danesh Science And Technology University,Dinajpur</p>
+        <button type="button" class="btn btn-primary hd-btn animate__animated animate__pulse animate__infinite"
+          data-toggle="modal" data-target="#myModal">HIRE ME</button>
       </div>
-    </div>
+      </div>
 
     </div>
    
@@ -231,29 +189,50 @@
 
 <!-- Resume Section -->
 <div class="container" style="overflow:hidden;" >
- <div class="resume" id="myResume">
-    <h3 class="text-center font-weight-bold pt-5 pb-5" style="letter-spacing: 2px;">MY RESUME</h3>
+ <div class="resume" data-aos="fade-left" data-aos-duration="3000" id="myResume">
+    <h3 class="text-center font-weight-bold pt-5 pb-5" style="letter-spacing: 2px;">MY PORTFOLIO</h3>
     <div class="v-border"></div>
     <div class="row resume-text">
       
       <div class="text1 col-lg-6  text-right pr-5">
-        <h5 class="text-uppercase font-weight-bold" style="letter-spacing: 2px;">Experience</h5>
+        <h5 class="text-uppercase font-weight-bold" style="letter-spacing: 2px;"><u>Experience</u></h5>
         <p class="pt-2"><span class="font-weight-bold">Fiverr.com</span><small><br>2019 - Present</small></p>
         <p class="pt-2"><span class="font-weight-bold">Freelancer.com</span><small><br>2020 - Present</small></p>
+        <p class="pt-2"><span class="font-weight-bold">Upwork.com</span><small><br>2020 - Present</small></p>
 
-        <h5 class="text-uppercase font-weight-bold pt-5" style="letter-spacing: 2px;">Certification</h5>
-        <p class="pt-2"><span class="font-weight-bold">Build a Professional Website with WordPress</span><small><br>Udemy 2019</small></p>
-        <p class="pt-2"><span class="font-weight-bold">Learn Web with HTML, CSS, BOOTSTRAP, JAVASCRIPT</span><small><br>Udemy 2019</small></p>
+        <h5 class="text-uppercase font-weight-bold pt-5" style="letter-spacing: 2px;"><u>Certification</u></h5>
+        <p class="pt-2"><span class="font-weight-bold">Build a Professional Website with WordPress</span><small><br>Udemy
+            2019</small></p>
+        <p class="pt-2"><span class="font-weight-bold">Learn Web with HTML, CSS, BOOTSTRAP, JAVASCRIPT</span><small><br>Udemy
+            2019</small></p>
         <p class="pt-2"><span class="font-weight-bold">Web Design & Development</span><small><br>LEDP 2020</small></p>
-      
+        <p class="pt-2"><span class="font-weight-bold">Adobe Photoshop Mastery</span><small><br>Fiverr.com 2019</small></p>
+        <p class="pt-2"><span class="font-weight-bold">Adobe Illustrator Mastery</span><small><br>Fiverr.com 2019</small></p>
+        
+        <h5 class="text-uppercase font-weight-bold pt-5" style="letter-spacing: 2px;"><u>Interests</u></h5>
+        <p class="pt-2"><span class="font-weight-bold">Playing Cricket</span></p>
+        <p class="pt-2"><span class="font-weight-bold">Watching Movies</span></p>
+        <p class="pt-2"><span class="font-weight-bold">Playing Online Games</span></p>
+        <p class="pt-2"><span class="font-weight-bold">Listening Music</span></p>
+        <p class="pt-2"><span class="font-weight-bold">Travelling</span></p>
+        
       </div>
        
        <div class="text2 col-lg-6 pl-5">
-        <h5 class="text-uppercase font-weight-bold" style="letter-spacing: 2px;">Education</h5>
-        <p class="pt-2"><span class="font-weight-bold">Electronics & Communication Engineering<br>HSTU,Dinajpur</span><small><br>2017 - 2020</small></p>
+        <h5 class="text-uppercase font-weight-bold" style="letter-spacing: 2px;"><u>Personal Details</u></h5>
+        <p class="pt-2"><span class="font-weight-bold">Age: 24</p>
+        <p class="pt-2"><span class="font-weight-bold">Blood Group: A+</p>
+        <p class="pt-2"><span class="font-weight-bold">Hometown: Chittagong</p>
+       <div class="pt-3">
+        <h5 class="text-uppercase font-weight-bold" style="letter-spacing: 2px;"><u>Education</u></h5>
+        <p class="pt-2"><span class="font-weight-bold">Electronics & Communication
+            Engineering<br>HSTU,Dinajpur</span><small><br>2017 - 2020</small></p>
+        <p class="pt-2"><span class="font-weight-bold">Cambrian College, Chittagong</span><small><br>HSC - 2016</small></p>
+        <p class="pt-2"><span class="font-weight-bold">BN School And College, Chittagong</span><small><br>SSC - 2014</small></p>
+       </div>
 
-        <div class="pt-5">
-                  <h5 class="text-uppercase font-weight-bold pb-3" style="letter-spacing: 2px;">My Skills</h5>
+        <div class="pt-3">
+                  <h5 class="text-uppercase font-weight-bold pb-3" style="letter-spacing: 2px;"><u>Skills</u></h5>
 
                   <div class="container">
                     <div class="row">
@@ -282,6 +261,18 @@
                                     <div class="progress-value">85%</div>
                                 </div>
                             </div>
+                            <h3 class="progress-title">Matlab</h3>
+                            <div class="progress blue">
+                                <div class="progress-bar" style="width:70%; background:blue;">
+                                    <div class="progress-value">70%</div>
+                                </div>
+                            </div>
+                            <h3 class="progress-title">Adobe Photoshop</h3>
+                            <div class="progress green">
+                                <div class="progress-bar" style="width:90%; background:green;">
+                                    <div class="progress-value">90%</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -296,95 +287,33 @@
 </div>
 
 
-<!-- Why wait............................................................................ -->
- <div class="container-fluid count-part mb-5" style="overflow:hidden;">
-    <div class="text-center  ct-text">
-     <h1 class="pt-5 pb-2 animate__animated animate__heartBeat animate__slow animate__infinite">So Why You're Waiting For?</h1>
-     <h4 class="pb-5 ">Let's Get started!</h4>
-    </div>
-</div>
 
 
-
-<!-- comments section -->
-<div class="container" style="overflow:hidden;">
-   <div class="comments">
-    <h4 class="text-center pt-5 text-uppercase font-weight-bold" style="letter-spacing:2px;">What Clients Says</h4>
- <div class="row b-comment">
-    	
-   <div class="pt-5 col-lg-4">
-      <img src="images/b1.png" alt="">
-      <p class="pt-2 font-weight-bold">John Walker</p>
-      <p class="pl-2" style="letter-spacing: 1px;"><em>He was great in his potential. Fantastic job done!</em><br>
-      	<span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span></p>
-    </div>
-    
-    <div class="pt-5 buyer2 col-lg-4 ">
-      <img src="images/b2.jpg" alt="">
-      <p class="pt-2 font-weight-bold">Mr. Pritom Ahsan</p>
-      <p class="pl-2" style="letter-spacing: 1px;"><em>Great work! Highly recommended</em><br><span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span></p>
-    </div>
-
-     <div class="pt-5 buyer3 col-lg-4">
-      <img src="images/b3.jpg" alt="">
-      <p class="pt-2 font-weight-bold">MD Mahbub</p>
-      <p class="pl-2" style="letter-spacing: 1px;"><em>Fully Satisfied with his final work! Great</em><br><span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span></p>
-    </div>
-    </div>
- 
-  </div>
-</div>
 
 <!-- Contact Me Section -->
-<div class="contact mt-5 pb-5 text-center" id="contactMe" style="overflow:hidden;">
-    <h3 class="text-center font-weight-bold text-white pt-3" style="letter-spacing: 2px;">CONTACT ME</h3>
-<div class="row cnt-txt pt-4 align-items-center">
-	 <div class="text-white col-md-4">
-    	<h3><i class="fa fa-2x fa-paper-plane"></i>&nbsp;&nbsp;sazzpersonal@gmail.com</h3>
+<h3 class="text-center font-weight-bold  pt-5 mt-5" style="letter-spacing: 2px;">CONTACT ME</h3>
+<div class="contact mt-3 pb-5 text-center" data-aos="fade-up" data-aos-duration="3000" id="contactMe" style="overflow:hidden;">
+    
+<div class="pt-4 ">
+	 <div class="text-white d-flex align-items-center justify-content-around">
+    	<h3 class="contactme"><i class="fa fa-paper-plane"></i>&nbsp;&nbsp;sazzpersonal@gmail.com</h3>
+      <h3 class="contactme"><i class="fa  fa-whatsapp mt-3"></i>&nbsp;&nbsp;+880-1777394387</h3>
+      <h3 class="contactme"><i class="far fa-map mt-3"></i>&nbsp;&nbsp;HSTU, Dinajpur-5200</h3>
+      
+     
+    </div>
+    <div class="social-btns mt-5">
+        
+      <a class="btn facebook" target="_blank" href="https://web.facebook.com/Sazzadme/"><i class="fa fa-facebook"></i></a>
+      <a class="btn twitter" target="_blank" href="https://twitter.com/SazzadA33322156"><i class="fa fa-twitter"></i></a>
+      <a class="btn linkedin" target="_blank" href="https://www.linkedin.com/in/sazzad-ahmed-14307617b/"><i class="fa fa-linkedin"></i></a>
+      <a class="btn github" target="_blank" href="https://github.com/sazzad139"><i class="fa fa-github"></i></a>
+      
     </div>
 
-    <div class="text-white col-md-4">
-    	<!-- fiverr -->
-<!-- Put this code anywhere in the body of your page where you want the badge to show up. -->
 
-<div itemscope itemtype='http://schema.org/Person' class='fiverr-seller-widget' style='display: inline-block;'>
-  <a itemprop='url' href=https://www.fiverr.com/sazzad29 rel="nofollow" target="_blank" style='display: inline-block;'>
-     <div class='fiverr-seller-content' id='fiverr-seller-widget-content-255761bd-aa3d-451b-9702-cc60a4901287' itemprop='contentURL' style='display: none;'></div>
-     <div id='fiverr-widget-seller-data' style='display: none;'>
-         <div itemprop='name' >sazzad29</div>
-         <div itemscope itemtype='http://schema.org/Organization'><span itemprop='name'>Fiverr</span></div>
-         <div itemprop='jobtitle'>Seller</div>
-         <div itemprop='description'>Hi
 
-I'm Sazzad, experienced in Graphic Design, UI/UX Design, Web Design, WordPress Development. I have successfully completed 200+ projects for my clients with 100% satisfaction.
-
-Feel free to know me your query. I will be glad to provide you my service.
-
-</div>
-     </div>
- </a>
-</div>
-
-<script id='fiverr-seller-widget-script-255761bd-aa3d-451b-9702-cc60a4901287' src='https://widgets.fiverr.com/api/v1/seller/sazzad29?widget_id=255761bd-aa3d-451b-9702-cc60a4901287' data-config='{"category_name":"\n                                    Programming \u0026 Tech\n\n                            "}' async='true' defer='true'></script>
-
-<!-- fiverr -->
-    </div>
-
-    <div class="text-white col-md-4">
-    	<h3><i class="fa fa-2x fa-whatsapp"></i>&nbsp;&nbsp;+880-1777394387</h3>
-    </div>
+    
 </div>
 
 
@@ -402,11 +331,11 @@ Feel free to know me your query. I will be glad to provide you my service.
       <div class="col-lg-6 foot-icon  pt-3">
         
         <div class="social-btns">
-          <small>All Rights Reserved &#169; 2020 |&nbsp;&nbsp;</small>
-          <a class="btn facebook" target="_blank" href="https://web.facebook.com/Sazzadme/"><i class="fa fa-facebook"></i></a>
+          <small>All Rights Reserved &#169; 2020 &nbsp;&nbsp;</small>
+          <!-- <a class="btn facebook" target="_blank" href="https://web.facebook.com/Sazzadme/"><i class="fa fa-facebook"></i></a>
           <a class="btn twitter" target="_blank" href="https://twitter.com/SazzadA33322156"><i class="fa fa-twitter"></i></a>
           <a class="btn linkedin" target="_blank" href="https://www.linkedin.com/in/sazzad-ahmed-14307617b/"><i class="fa fa-linkedin"></i></a>
-          <a class="btn github" target="_blank" href="https://github.com/sazzad139"><i class="fa fa-github"></i></a>
+          <a class="btn github" target="_blank" href="https://github.com/sazzad139"><i class="fa fa-github"></i></a> -->
           
         </div>
       </div>
@@ -423,6 +352,9 @@ Feel free to know me your query. I will be glad to provide you my service.
         </li>
         <li >
           <a  href="#aboutMe">ABOUT ME</a>
+        </li>
+        <li >
+          <a  href="#myResume">PORTFOLIO</a>
         </li>
         <li >
           <a  href="#contactMe">CONTACT</a>
@@ -446,7 +378,12 @@ Feel free to know me your query. I will be glad to provide you my service.
   wrap: true ,
 })
 
-</script>
 
+
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>

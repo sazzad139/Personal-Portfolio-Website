@@ -17,9 +17,7 @@ html {
 	padding-left: 15px;
 	padding-right: 15px;
 }
-.header{
-	animation: drop 1.5s ease;
-}
+
 .head-text{
 	position: relative;
 	padding-top: 170px;
@@ -36,6 +34,7 @@ html {
 
 .more-work{
 	padding-top: 70px;
+  animation: up 1.5s ease;
 }
 .card-btn{
 	display: none;
@@ -52,7 +51,7 @@ html {
 	height:500px;
 }
 .about{
-	background-color:#fffafa;
+	background-color:#eaeaea;
 	margin-top: 100px;
 	margin-bottom: 70px;
 }
@@ -131,10 +130,9 @@ html {
 }
 .contact{
 	
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url("../images/contact.jpg"); 
-  	background-position: center; 
-  	background-repeat: no-repeat; 
-  	background-size: cover;
+	background-color: #000;
+	padding-top: 50px;
+	padding-bottom: 100px;
 }
 
 .footer-nav{
@@ -170,18 +168,13 @@ html {
 }
 
 
-.cnt-txt h5{
-	letter-spacing: 1px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+.cntct-txt{
+	
+	padding-left: 150px;
 
 }
 
-.cnt-txt{
 
-
-}
 
 .html {width: 95%; background-color: #4CAF50;}
 .css {width: 90%; background-color: #2196F3;}
@@ -246,6 +239,16 @@ position: relative;
 	position: relative;
 	margin: auto;
 	padding-top: 100px;
+}
+
+.fa.fa-paper-plane {
+    font-size: 40px;
+}
+.fa.fa-whatsapp.mt-3 {
+    font-size: 40px;
+}
+.far.fa-map.mt-3 {
+    font-size: 30px;
 }
 
 .count-part{
